@@ -1,7 +1,6 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import styles from "../../css/skyPlotTable.module.css"
 import { Table } from "antd"
 import { ColumnsType } from "antd/es/table"
 
@@ -15,11 +14,9 @@ type SkyplotTableProps = {
 export default function SkyplotTable({ tableItem }:SkyplotTableProps) {
   const [renderd, setRenderd] = useState<Boolean>(false)
 
-  window.addEventListener("load", () => {
+  useEffect(() => {
     setRenderd(true)
-  })
-
-
+  }, [])
 
   const columns: ColumnsType<any> = [
     {

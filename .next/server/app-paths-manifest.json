@@ -1,0 +1,18 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/login/page": "app/login/page.js",
+  "/log/page": "app/log/page.js",
+  "/overview/page": "app/overview/page.js",
+  "/page": "app/page.js",
+  "/ssrDetails/page": "app/ssrDetails/page.js",
+  "/ssrServer/page": "app/ssrServer/page.js",
+  "/receiver/page": "app/receiver/page.js",
+  "/skyPlot/page": "app/skyPlot/page.js",
+  "/observation/pseudo/page": "app/observation/pseudo/page.js",
+  "/observation/snr/page": "app/observation/snr/page.js",
+  "/userInformation/[id]/page": "app/userInformation/[id]/page.js",
+  "/userInformation/page": "app/userInformation/page.js",
+  "/observation/carrier/page": "app/observation/carrier/page.js",
+  "/observation/doppler/page": "app/observation/doppler/page.js"
+}
