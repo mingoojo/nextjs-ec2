@@ -1,0 +1,13 @@
+.observationNav {
+  text-decoration: none;
+  font-size: 0.9rem;
+  word-break: normal;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}

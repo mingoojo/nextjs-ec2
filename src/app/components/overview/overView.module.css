@@ -1,0 +1,28 @@
+.cardDefault {
+  width: 100%;
+  display: inline-block;
+  height: 600px;
+  margin-bottom: 20px;
+}
+
+.cardGrid {
+  width: 49%;
+  display: inline-block;
+  height: 600px;
+  margin-bottom: 20px;
+}
+
+.cardFirst {
+  margin-right: 10px;
+}
+
+.cardLeft {
+  margin-left: 10px;
+}
+
+.tableBox {
+  height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
+}

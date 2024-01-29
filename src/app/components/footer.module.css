@@ -1,0 +1,38 @@
+.footerContainer {
+  bottom: 0;
+  height: 200px;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  z-index: 30;
+  background-color: #ffffff;
+}
+
+.footerContents {
+  flex-grow: 1;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.rowBox {
+  justify-content: flex-start;
+  padding-block: 5px;
+  display: flex;
+}
+.row {
+  margin-right: 15px;
+  font-size: 14px;
+  line-height: 1.2rem;
+}
+
+.web {
+  display: inline-block;
+}
+
+.mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,21 @@
+.infoBox {
+  padding: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.infoBoxS {
+  margin-bottom: 20px;
+}
+
+.title {
+  padding-block: 20px;
+  font-weight: 500;
+}
+
+.item {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,17 @@
+.table {
+  width: 100%;
+  text-align: center;
+}
+
+.tableItem {
+  border-bottom: 1px solid #e0e0e0;
+  padding-block: 20px;
+  text-align: center;
+}
+
+.tableHeader {
+  width: 20%;
+  padding-block: 20px;
+  background-color: rgb(243, 243, 243);
+  border-bottom: 1px solid #e0e0e0;
+}
