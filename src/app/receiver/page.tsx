@@ -1,5 +1,5 @@
 import Carousels from "../components/receiver/Carousels";
-// import ReceiverChart from "../components/receiver/ReceiverChart";
+import ReceiverChart from "../components/receiver/ReceiverChart";
 import ReceiverInfo from "../components/receiver/ReceiverInfo";
 import RecieverHeader from "../components/receiver/RecieverHeader";
 
@@ -43,6 +43,10 @@ const information = {
   AntennaNumber: "02994",
 }
 
+export const dynamic = "force-dynamic";
+export const fetchCache = "force-no-store";
+
+
 export default function receiver() {
   return (
     <div className="mainContents">
@@ -63,12 +67,12 @@ export default function receiver() {
           </div>
         </div>
       </div>
-      {/* <div className="card" style={{ display: "flex", flexDirection: "row" }}>
+      <div className="card" style={{ display: "flex", flexDirection: "row" }}>
         <ReceiverChart title={"GPS"}/>
         <ReceiverChart title={"GLONASS"}/>
         <ReceiverChart title={"Galileo"}/>
         <ReceiverChart title={"Beidou"}/>
-      </div> */}
+      </div>
     </div>
   )
 }

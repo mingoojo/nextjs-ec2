@@ -1,6 +1,10 @@
 import LogGaugeChart from "../components/log/LogGaugeChart";
 import LogSplineChart from "../components/log/LogSplineChart";
 
+export const dynamic = "force-dynamic";
+export const fetchCache = "force-no-store";
+
+
 export default function log() {
   return (
     <div className="mainContents">
@@ -14,7 +18,7 @@ export default function log() {
           </div>
           <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
             <div style={{ display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center", width: "50%", minHeight: "500px" }}>
-              {/* <LogSplineChart title="" usage ={74.5}/> */}
+              <LogSplineChart title="" usage ={74.5}/>
             </div>
           </div>
         </div>
@@ -25,7 +29,7 @@ export default function log() {
             <h4 className="page-title">서버 부하율</h4>
           </div>
           <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-            {/* <LogGaugeChart title={"실시간 서버 부하율"}/> */}
+            <LogGaugeChart title={"실시간 서버 부하율"}/>
             <div style={{ marginLeft: "30px" }}>
               <div style={{ paddingBlock: "10px" }}>
                 <h4>금일 사용량</h4>
